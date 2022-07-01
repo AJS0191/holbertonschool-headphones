@@ -186,7 +186,7 @@ margin-top: 26px;
     font-size: 16px;
 }
 
-.intro button {
+button {
     margin: 40px;
     background-color: #ff6565;
     border-image: none;
@@ -198,9 +198,10 @@ margin-top: 26px;
     font-weight: bold;
     color: white;
     font-family: 'SSP reg';
+    max-width: 160px;
 }
 
-.intro button:hover, .intro button:active {
+button:hover, .intro button:active {
     opacity: 0.8;
 }
 
@@ -403,4 +404,42 @@ margin-top: 26px;
             background-position-y: 0;
             background-size: 400%;
         }
+    }
+/*CONTACT SECTION */
+
+    .flexcontact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'SSP reg';
+        text-align: center;
+        background-color: white;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form input {
+        border: none;
+        border-bottom: 2px solid lightgrey;
+        color: black;
+        padding-right: 125px;
+        margin-top: 30px;
+    }
+
+    form input::placeholder {
+        color: black;
+        font-family: 'SSP reg';
+    }
+
+    .flexcontact h1 {
+        margin-top: 75px;
+    }
+
+    form button {
+        margin-top: 50px;
+        margin-bottom: 100px;
     }
