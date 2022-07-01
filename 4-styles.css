@@ -454,6 +454,7 @@ button:hover, .intro button:active {
 footer {
     height: 250px;
     max-width: 1400px;
+    margin-left: 200px ;
 }
 
 .footercontainer {
