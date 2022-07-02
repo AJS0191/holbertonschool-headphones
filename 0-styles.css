@@ -126,6 +126,7 @@ p {
   transition: all .5s ease-in-out;
   padding-top: 60px;
   margin-bottom: -85px;
+  visibility: hidden;
 }
 
 .burger {
@@ -259,6 +260,10 @@ margin-top: 26px;
     font-size: 16px;
 }
 @media (max-width: 760px) {
+
+  .menu-btn {
+    visibility: visible;
+  }
 
     .headcontainer {
         background-position-x: 35%;
